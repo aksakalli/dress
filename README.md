@@ -20,26 +20,41 @@ it changed the input to lab color space and returns closest 10 articles based on
 
 ## WEB API
 
+All images are retrieved from Zalando API and color information is stored in MongoDB. The Web API runs a query in MongoDB
+to get similar images.
+
+
+![architecture](docs/images/architecture.png)
+
 ```
 get /categories/                    list all available categories
 get /categories/:category/:color    search for a specific color represented as /r,g,b in given category
 ```
 
-## The iPhone App
+## iPhone App
+
+With this app, you can find best color combination before going out. You can combine your clothes and shoes based on
+color preferences. To select a color, you can either take picture of your favorite color or select on color pallet.
+
+Demo video:
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 ## Web demo
 ![screen shot](docs/images/screenshot.png)
 
-(Here you may check the running demo.)[http://5.101.97.25:3000/]
+[Here you may check the running demo.](http://5.101.97.25:3000/)
 
-## Running the project
+## Running the Server App
 
 Getting ready and running the server:
 
 ```bash
 # canvas package has following dependencies
 sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+
+cd ServerSide
 
 # install node packages
 npm install
@@ -55,4 +70,4 @@ $ node server.js
 
 ## Licence
 
-(WTFPL)[http://www.wtfpl.net/txt/copying/]
+[WTFPL](http://www.wtfpl.net/txt/copying/)
