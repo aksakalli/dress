@@ -5,6 +5,11 @@ input color. It was developed in couple of hours in [a hackathon](http://www.gru
 and might not be a production ready implementation. It just aims to show how color based search functionality
 can help the user to find the best match.
 
+## Authors
+
+Can Güney Aksakalli - can.aksakalli@rwth-aachen.de
+Yücel Uzun - yuecel.uzun@rwth-aachen.de
+
 ## Introduction
 
 ![men vs women color](docs/images/colorman.png)
