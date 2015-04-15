@@ -40,6 +40,7 @@ Demo video:
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/5FywLwi8j_M/0.jpg)](http://www.youtube.com/watch?v=5FywLwi8j_M)
 
+[http://www.youtube.com/watch?v=5FywLwi8j_M](http://www.youtube.com/watch?v=5FywLwi8j_M)
 
 ## Web demo
 ![screen shot](docs/images/screenshot.png)
