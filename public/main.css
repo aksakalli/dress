@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+#result-container{
+    text-align: center;
+}
+
+#result-container > div {
+    display: inline-block;
+    border: 2px solid #e6e6e6;
+    width: 250px;
+    text-align: center;
+    margin: 4px;
+}
+
+#result-container p,
+#result-container h5
+{
+    margin:5px;
+    height: 30px;
+}

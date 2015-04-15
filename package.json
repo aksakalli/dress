@@ -1,0 +1,23 @@
+{
+  "name": "zalando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "color-convert": "^0.5.2",
+    "color-thief": "^2.2.0",
+    "euclidean-distance": "^0.1.0",
+    "express": "^4.12.3",
+    "mongodb": "^2.0.27",
+    "node-gyp": "^1.0.3",
+    "request": "^2.55.0",
+    "winston": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
