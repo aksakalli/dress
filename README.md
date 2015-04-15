@@ -70,7 +70,7 @@ node server.js
 ```
 ## Running the iOS App
 With the last version of Xcode it should just work. To use camera part you need to test it in real device.
-
+Since we had limited time, we only focused on working it on iPhone 5 and 5S. It might not work as expected in other models.  
 
 ## Licence
 
