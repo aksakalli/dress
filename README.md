@@ -38,7 +38,7 @@ color preferences. To select a color, you can either take picture of your favori
 
 Demo video:
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/5FywLwi8j_M/0.jpg)](http://www.youtube.com/watch?v=5FywLwi8j_M)
 
 
 ## Web demo
@@ -70,4 +70,4 @@ $ node server.js
 
 ## Licence
 
-[WTFPL](http://www.wtfpl.net/txt/copying/)
+Released under [the MIT license](LICENSE).
