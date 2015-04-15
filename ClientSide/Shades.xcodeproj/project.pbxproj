@@ -13,7 +13,6 @@
 		E32D80171ADD57F000A0841B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32D80161ADD57F000A0841B /* Images.xcassets */; };
 		E32D801A1ADD57F000A0841B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32D80181ADD57F000A0841B /* LaunchScreen.xib */; };
 		E32D80261ADD57F000A0841B /* ShadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D80251ADD57F000A0841B /* ShadesTests.m */; };
-		E32D80441ADD97C100A0841B /* MainViewControllerOldest.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D80431ADD97C100A0841B /* MainViewControllerOldest.m */; };
 		E32D80701ADDA2B100A0841B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D804C1ADDA2B100A0841B /* AFHTTPRequestOperation.m */; };
 		E32D80711ADDA2B100A0841B /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D804E1ADDA2B100A0841B /* AFHTTPRequestOperationManager.m */; };
 		E32D80721ADDA2B100A0841B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D80501ADDA2B100A0841B /* AFHTTPSessionManager.m */; };
@@ -39,12 +38,7 @@
 		E32D80981ADDA33A00A0841B /* UIViewController+NetworkExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D80931ADDA33A00A0841B /* UIViewController+NetworkExtensions.m */; };
 		E32D809E1ADDABCE00A0841B /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D809B1ADDABCE00A0841B /* CCColorCube.m */; };
 		E32D809F1ADDABCE00A0841B /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = E32D809D1ADDABCE00A0841B /* CCLocalMaximum.m */; };
-		E330E7811ADDB685000AF380 /* RGBColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E330E77E1ADDB685000AF380 /* RGBColorSlider.m */; };
-		E330E7821ADDB685000AF380 /* RGBColorSliderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E330E7801ADDB685000AF380 /* RGBColorSliderDelegate.m */; };
-		E36F10711ADDC885000D437F /* MainViewControllerOld.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F10701ADDC885000D437F /* MainViewControllerOld.m */; };
-		E36F10741ADDCDA4000D437F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F10731ADDCDA4000D437F /* PickerViewController.m */; };
 		E36F10781ADDDE14000D437F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F10771ADDDE14000D437F /* MBProgressHUD.m */; };
-		E36F107B1ADDDE28000D437F /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F107A1ADDDE28000D437F /* ResultsViewController.m */; };
 		E36F107E1ADDEFC2000D437F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F107D1ADDEFC1000D437F /* MainViewController.m */; };
 		E36F109B1ADDFD46000D437F /* HSVColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F10991ADDFD46000D437F /* HSVColorPicker.m */; };
 		E36F109F1ADE0498000D437F /* Subview.m in Sources */ = {isa = PBXBuildFile; fileRef = E36F109E1ADE0498000D437F /* Subview.m */; };
@@ -72,8 +66,6 @@
 		E32D801F1ADD57F000A0841B /* ShadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32D80241ADD57F000A0841B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E32D80251ADD57F000A0841B /* ShadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadesTests.m; sourceTree = "<group>"; };
-		E32D80421ADD97C100A0841B /* MainViewControllerOldest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllerOldest.h; sourceTree = "<group>"; };
-		E32D80431ADD97C100A0841B /* MainViewControllerOldest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerOldest.m; sourceTree = "<group>"; };
 		E32D804B1ADDA2B100A0841B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		E32D804C1ADDA2B100A0841B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E32D804D1ADDA2B100A0841B /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -126,18 +118,8 @@
 		E32D809B1ADDABCE00A0841B /* CCColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorCube.m; sourceTree = "<group>"; };
 		E32D809C1ADDABCE00A0841B /* CCLocalMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocalMaximum.h; sourceTree = "<group>"; };
 		E32D809D1ADDABCE00A0841B /* CCLocalMaximum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocalMaximum.m; sourceTree = "<group>"; };
-		E330E77D1ADDB685000AF380 /* RGBColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBColorSlider.h; sourceTree = "<group>"; };
-		E330E77E1ADDB685000AF380 /* RGBColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBColorSlider.m; sourceTree = "<group>"; };
-		E330E77F1ADDB685000AF380 /* RGBColorSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBColorSliderDelegate.h; sourceTree = "<group>"; };
-		E330E7801ADDB685000AF380 /* RGBColorSliderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBColorSliderDelegate.m; sourceTree = "<group>"; };
-		E36F106F1ADDC885000D437F /* MainViewControllerOld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllerOld.h; sourceTree = "<group>"; };
-		E36F10701ADDC885000D437F /* MainViewControllerOld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerOld.m; sourceTree = "<group>"; };
-		E36F10721ADDCDA4000D437F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
-		E36F10731ADDCDA4000D437F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 		E36F10761ADDDE14000D437F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E36F10771ADDDE14000D437F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		E36F10791ADDDE28000D437F /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
-		E36F107A1ADDDE28000D437F /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		E36F107C1ADDEFC1000D437F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		E36F107D1ADDEFC1000D437F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		E36F10981ADDFD46000D437F /* HSVColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSVColorPicker.h; sourceTree = "<group>"; };
@@ -228,14 +210,6 @@
 		E32D80411ADD97BA00A0841B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E32D80421ADD97C100A0841B /* MainViewControllerOldest.h */,
-				E32D80431ADD97C100A0841B /* MainViewControllerOldest.m */,
-				E36F106F1ADDC885000D437F /* MainViewControllerOld.h */,
-				E36F10701ADDC885000D437F /* MainViewControllerOld.m */,
-				E36F10721ADDCDA4000D437F /* PickerViewController.h */,
-				E36F10731ADDCDA4000D437F /* PickerViewController.m */,
-				E36F10791ADDDE28000D437F /* ResultsViewController.h */,
-				E36F107A1ADDDE28000D437F /* ResultsViewController.m */,
 				E36F107C1ADDEFC1000D437F /* MainViewController.h */,
 				E36F107D1ADDEFC1000D437F /* MainViewController.m */,
 			);
@@ -247,7 +221,6 @@
 			children = (
 				E36F10961ADDFD46000D437F /* HSVColorPicker */,
 				E36F10751ADDDE14000D437F /* MBProgressHUD */,
-				E330E7761ADDB66F000AF380 /* RGBColorSlider */,
 				E32D80991ADDABCE00A0841B /* ColorCube */,
 				E32D80861ADDA33A00A0841B /* Categories */,
 				E32D80491ADDA2B100A0841B /* AFNetworking */,
@@ -373,17 +346,6 @@
 				E32D809D1ADDABCE00A0841B /* CCLocalMaximum.m */,
 			);
 			path = ColorCube;
-			sourceTree = "<group>";
-		};
-		E330E7761ADDB66F000AF380 /* RGBColorSlider */ = {
-			isa = PBXGroup;
-			children = (
-				E330E77D1ADDB685000AF380 /* RGBColorSlider.h */,
-				E330E77E1ADDB685000AF380 /* RGBColorSlider.m */,
-				E330E77F1ADDB685000AF380 /* RGBColorSliderDelegate.h */,
-				E330E7801ADDB685000AF380 /* RGBColorSliderDelegate.m */,
-			);
-			path = RGBColorSlider;
 			sourceTree = "<group>";
 		};
 		E36F10751ADDDE14000D437F /* MBProgressHUD */ = {
@@ -528,10 +490,7 @@
 				E32D80941ADDA33A00A0841B /* AFHTTPRequestOperationManager+Timeout.m in Sources */,
 				E36F109B1ADDFD46000D437F /* HSVColorPicker.m in Sources */,
 				E32D80951ADDA33A00A0841B /* AFHTTPRequestSerializer+Timeout.m in Sources */,
-				E330E7821ADDB685000AF380 /* RGBColorSliderDelegate.m in Sources */,
-				E36F10741ADDCDA4000D437F /* PickerViewController.m in Sources */,
 				E32D80741ADDA2B100A0841B /* AFSecurityPolicy.m in Sources */,
-				E36F107B1ADDDE28000D437F /* ResultsViewController.m in Sources */,
 				E36F107E1ADDEFC2000D437F /* MainViewController.m in Sources */,
 				E36F109F1ADE0498000D437F /* Subview.m in Sources */,
 				E32D807F1ADDA2B100A0841B /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -542,12 +501,9 @@
 				E32D80761ADDA2B100A0841B /* AFURLRequestSerialization.m in Sources */,
 				E32D80971ADDA33A00A0841B /* NSObject+NullRemoving.m in Sources */,
 				E32D80791ADDA2B100A0841B /* AFNetworkActivityIndicatorManager.m in Sources */,
-				E36F10711ADDC885000D437F /* MainViewControllerOld.m in Sources */,
 				E32D80781ADDA2B100A0841B /* AFURLSessionManager.m in Sources */,
-				E330E7811ADDB685000AF380 /* RGBColorSlider.m in Sources */,
 				E32D80851ADDA2C800A0841B /* ServiceInvoker.m in Sources */,
 				E32D80961ADDA33A00A0841B /* NSData+JSONUtilities.m in Sources */,
-				E32D80441ADD97C100A0841B /* MainViewControllerOldest.m in Sources */,
 				E32D809F1ADDABCE00A0841B /* CCLocalMaximum.m in Sources */,
 				E32D800C1ADD57F000A0841B /* main.m in Sources */,
 			);
