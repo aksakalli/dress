@@ -2,7 +2,7 @@
 
 This application allows the user to find articles on [Zalando API](https://api.zalando.com/) based on specific
 input color. It was developed in couple of hours in [a hackathon](http://www.gruenderzentrum.rwth-aachen.de/2015/03/16/hackathon-spring-2015/)
-and might be not a production ready implementation. It just aims to show how color based search functionality
+and might not be a production ready implementation. It just aims to show how color based search functionality
 can help the user to find the best match.
 
 ## Introduction
@@ -63,11 +63,14 @@ npm install
 # you can restore data:
 mongorestore --drop -d zalando -c articles data/articles.bson
 # or run the service to fill the database
-$ node service.js
+node service.js
 
 # now we are ready to run the app
-$ node server.js
+node server.js
 ```
+## Running the iOS App
+With the last version of Xcode it should just work. To use camera part you need to test it in real device.
+
 
 ## Licence
 
