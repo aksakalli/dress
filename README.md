@@ -7,8 +7,8 @@ can help the user to find the best match.
 
 ## Authors
 
-Can Güney Aksakalli - can.aksakalli@rwth-aachen.de
-Yücel Uzun - yuecel.uzun@rwth-aachen.de
+* Can Güney Aksakalli - can.aksakalli@rwth-aachen.de
+* Yücel Uzun - yuecel.uzun@rwth-aachen.de
 
 ## Introduction
 
